@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ProjectQQMDS_HenonMap" targetName="ProjectQQMDS_HenonMap" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16f7ebeb-650c-476f-afb9-25c859ce8f18" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vk8oqBlgPaorMWGRuz9wnXnaIf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NMDS_RTBP" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProjectQQMDS_HenonMap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectQQMDS_HenonMap" TARGET_NAME="ProjectQQMDS_HenonMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectQQMDS_HenonMap" RUN_TARGET_NAME="ProjectQQMDS_HenonMap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16f7ebeb-650c-476f-afb9-25c859ce8f18" name="Default Changelist" comment="" />
+      <created>1577785909531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577785909531</updated>
+      <workItem from="1577785913599" duration="2803000" />
+      <workItem from="1577789252769" duration="5909000" />
+      <workItem from="1577808575754" duration="11602000" />
+      <workItem from="1578161889318" duration="6707000" />
+      <workItem from="1578828980773" duration="435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="862" y="276" key="#xdebugger.XInspectDialog" timestamp="1577810987146">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="862" y="276" key="#xdebugger.XInspectDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1577810987145" />
+    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1577809400235">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="414" height="466" key="DebuggerActiveHint/0.0.1920.1044@0.0.1920.1044" timestamp="1577809400235" />
+    <state x="744" y="280" key="FileChooserDialogImpl" timestamp="1578829413311">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="744" y="280" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1578829413311" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1578172216625">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1578172216625">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1578172216625">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1578172216625">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1577820201903">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1577820201903" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1577820201903">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1577820201903" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1577820201903">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1577820201903" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1577820201903">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1577820201903" />
+    <state x="457" y="157" key="SettingsEditor" timestamp="1577789168312">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="457" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1577789168312" />
+    <state x="639" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1578828982750">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="639" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1578828982750" />
+    <state x="513" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577792013796">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="513" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1044@0.0.1920.1044" timestamp="1577792013796" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/main.cpp
+iostream
+-
+src/henon.h
+/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
+
+/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
+gsl/gsl_math.h
+-
+gsl/gsl_linalg.h
+-
+gsl/gsl_matrix.h
+-
+gsl/gsl_eigen.h
+-
+gsl/gsl_complex.h
+-
+gsl/gsl_complex_math.h
+-
+

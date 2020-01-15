@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProjectQQMDS_HenonMap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjectQQMDS_HenonMap">
+				<Option output="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/ProjectQQMDS_HenonMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/c++/7/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectQQMDS_HenonMap"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjectQQMDS_HenonMap/fast">
+				<Option output="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/ProjectQQMDS_HenonMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/c++/7/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectQQMDS_HenonMap/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/main.cpp">
+			<Option target="ProjectQQMDS_HenonMap"/>
+		</Unit>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/IOmodule.cpp">
+			<Option target="ProjectQQMDS_HenonMap"/>
+		</Unit>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.cpp">
+			<Option target="ProjectQQMDS_HenonMap"/>
+		</Unit>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h">
+			<Option target="ProjectQQMDS_HenonMap"/>
+		</Unit>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/paramMethod.cpp">
+			<Option target="ProjectQQMDS_HenonMap"/>
+		</Unit>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/stability.cpp">
+			<Option target="ProjectQQMDS_HenonMap"/>
+		</Unit>
+		<Unit filename="/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
