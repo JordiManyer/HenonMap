@@ -8,8 +8,8 @@ void f(Point* fp , Point p , double epsilon) {
 
 void Df(gsl_matrix* M , Point p , double epsilon) {
     gsl_matrix_set(M , 0 , 0 , 1 + epsilon*epsilon*(1.0 - 2.0*p.x));
-    gsl_matrix_set(M , 1 , 0 , epsilon);
-    gsl_matrix_set(M , 0 , 1 , epsilon*(1.0 - 2.0*p.x));
+    gsl_matrix_set(M , 0 , 1 , epsilon);
+    gsl_matrix_set(M , 1 , 0 , epsilon*(1.0 - 2.0*p.x));
     gsl_matrix_set(M , 1 , 1 , 1 );
 }
 

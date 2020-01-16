@@ -11,7 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f7ebeb-650c-476f-afb9-25c859ce8f18" name="Default Changelist" comment="" />
+    <list default="true" id="16f7ebeb-650c-476f-afb9-25c859ce8f18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plotting/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/src/paramMethod.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/src/paramMethod.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjectQQMDS_HenonMap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjectQQMDS_HenonMap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Stable.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Stable.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Stable_orbits.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Stable_orbits.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unstable.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unstable.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unstable_orbits.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unstable_orbits.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/henon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/henon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paramMethod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/paramMethod.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +56,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Vk8oqBlgPaorMWGRuz9wnXnaIf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,8 +68,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NMDS_RTBP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -93,6 +112,7 @@
       <workItem from="1577808575754" duration="11602000" />
       <workItem from="1578161889318" duration="6707000" />
       <workItem from="1578828980773" duration="435000" />
+      <workItem from="1579185945335" duration="2838000" />
     </task>
     <servers />
   </component>
@@ -112,22 +132,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="280" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1578829413311" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1578172216625">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1579188803890">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1578172216625">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579188803890" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1579188803890">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1578172216625">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579188803890" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1579188803890">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1578172216625">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579188803890" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1579188803890">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1578172216625" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579188803890" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1577820201903">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

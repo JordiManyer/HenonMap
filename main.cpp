@@ -33,6 +33,23 @@ int main() {
     ev2 = (2.0 + eps*eps - eps*sqrt(eps*eps+4))/2.0;
     printf("Analytical eigenvalues: %g %g \n" , ev1 , ev2);
 
+    gsl_matrix_complex* test;
+    test = gsl_matrix_complex_calloc(eq.n , eq.n);
+    for (int i = 0; i < eq.n; ++i) {
+        for (int j = 0; j< eq.n; ++j) {
+            for (int k = 0; k<eq.n; ++k){
+                lambda = gsl_complex_rect(gsl_matrix_get(eq.M,i,k),0);
+                lambda = gsl_complex_mul(lambda , gsl_matrix_complex_get(eq.evec,k,j));
+                lambda = gsl_complex_add(lambda , gsl_matrix_complex_get(test,i,j));
+                gsl_matrix_complex_set(test,i,j,lambda);
+            }
+            lambda = gsl_matrix_complex_get(test,i,j);
+            lambda = gsl_complex_div(lambda , gsl_vector_complex_get(eq.eval,j));
+            gsl_matrix_complex_set(test,i,j,lambda);
+        }
+    }
+    printf("Are eigenvectors correct? %d \n" , gsl_matrix_complex_equal(test , eq.evec));
+
     // Get parametrizations
     Param parS , parU;
     int order = 100;

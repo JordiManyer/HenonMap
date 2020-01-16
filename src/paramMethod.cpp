@@ -26,18 +26,18 @@ void getParametrization(Param parStable , Param parUnst , int dim , Point x0 , S
     // UNSTABLE MANIFOLD:
     v0 = gsl_vector_calloc(dim);
     for (int i = 0; i < dim; ++i) {
-        if (GSL_IMAG(gsl_matrix_complex_get(M.evec , iUnst , i)) > 1.e-10) printf("WARNING: Eigenvector is not full real!!");
-        gsl_vector_set(v0 , i , GSL_REAL(gsl_matrix_complex_get(M.evec , iUnst , i)));
+        if (GSL_IMAG(gsl_matrix_complex_get(M.evec , i , iUnst)) > 1.e-10) printf("WARNING: Eigenvector is not full real!!");
+        gsl_vector_set(v0 , i , GSL_REAL(gsl_matrix_complex_get(M.evec , i , iUnst)));
     }
 
-    paramMethod1D( parUnst , dim , x0 , eigStable , v0 , eps);
+    paramMethod1D(parUnst , dim , x0 , eigStable , v0 , eps);
     gsl_vector_free(v0);
 
     // STABLE MANIFOLD:
     v0 = gsl_vector_calloc(dim);
     for (int i = 0; i < dim; ++i) {
-        if (GSL_IMAG(gsl_matrix_complex_get(M.evec , iStable , i)) > 1.e-10) printf("WARNING: Eigenvector is not full real!!");
-        gsl_vector_set(v0 , i , GSL_REAL(gsl_matrix_complex_get(M.evec , iStable , i)));
+        if (GSL_IMAG(gsl_matrix_complex_get(M.evec , i , iStable)) > 1.e-10) printf("WARNING: Eigenvector is not full real!!");
+        gsl_vector_set(v0 , i , GSL_REAL(gsl_matrix_complex_get(M.evec , i , iStable)));
     }
 
     paramMethod1D( parStable , dim , x0 , eigUnst , v0 , eps);
