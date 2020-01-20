@@ -30,7 +30,7 @@ void getParametrization(Param parStable , Param parUnst , int dim , Point x0 , S
         gsl_vector_set(v0 , i , GSL_REAL(gsl_matrix_complex_get(M.evec , i , iUnst)));
     }
 
-    paramMethod1D(parUnst , dim , x0 , eigStable , v0 , eps);
+    paramMethod1D(parUnst , dim , x0 , eigUnst , v0 , eps);
     gsl_vector_free(v0);
 
     // STABLE MANIFOLD:
@@ -40,7 +40,7 @@ void getParametrization(Param parStable , Param parUnst , int dim , Point x0 , S
         gsl_vector_set(v0 , i , GSL_REAL(gsl_matrix_complex_get(M.evec , i , iStable)));
     }
 
-    paramMethod1D( parStable , dim , x0 , eigUnst , v0 , eps);
+    paramMethod1D( parStable , dim , x0 , eigStable , v0 , eps);
     gsl_vector_free(v0);
 }
 
@@ -68,7 +68,7 @@ void paramMethod1D(Param par , int dim , Point p0 , double eval , gsl_vector* ev
         gsl_matrix_set(A , 0 , 0 , 1.0 + eps*eps - 2.0*eps*eps*p0.x - pow(eval,i));
         gsl_matrix_set(A , 1 , 0 , eps - 2.0*eps*p0.x);
         gsl_matrix_set(A , 0 , 1 , eps);
-        gsl_matrix_set(A , 1 , 1 , 1-pow(eval,i));
+        gsl_matrix_set(A , 1 , 1 , 1 - pow(eval,i));
 
         // Calculate b
         sum = 0.0;
@@ -96,14 +96,13 @@ void paramMethod1D(Param par , int dim , Point p0 , double eval , gsl_vector* ev
 }
 
 
-
 void evaluateParametrization(Orbit orb , Param par , double smin , double smax) {
     int order = par.n;
     int nPoints = orb.n;
     double s;
 
     for (int i = 0 ; i < nPoints ; ++i) {
-        s = smin + (smax - smin)*i/(nPoints-1.0);
+        s = smax*(-1.0 + 2.0*i/(nPoints-1.0));
 
         orb.x[i] = par.x[0]; orb.y[i] = par.y[0];
         for (int j = 1 ; j < order ; ++j) {
@@ -111,4 +110,59 @@ void evaluateParametrization(Orbit orb , Param par , double smin , double smax) 
             orb.y[i] += par.y[j]*pow(s,j);
         }
     }
+}
+
+
+void paramMethod1D_finv(Param par , int dim , Point p0 , double eval , gsl_vector* evec , double eps) {
+    int flag ; int sign;
+    gsl_matrix* A; gsl_vector* b; gsl_permutation* perm;
+    gsl_vector* aux; double sum1 , sum2 , sum3;
+
+    // Initial values
+    par.x[0] = p0.x; par.y[0] = p0.y;
+    par.x[1] = gsl_vector_get(evec , 0); par.y[1] = gsl_vector_get(evec , 1);
+
+    // Allocate system
+    A = gsl_matrix_calloc(dim , dim);
+    b = gsl_vector_calloc(dim);
+    perm = gsl_permutation_calloc(dim);
+    aux = gsl_vector_calloc(dim);
+
+    // Loop to calculate the i-th coefficients
+    for (int i = 2 ; i < par.n ; ++i) {
+
+        // Calculate A
+        gsl_matrix_set(A , 0 , 0 , 1.0 - pow(eval,i));
+        gsl_matrix_set(A , 0 , 1 , -eps);
+        gsl_matrix_set(A , 1 , 0 , -eps + 2.0*eps*p0.x - 2.0*eps*eps*p0.y);
+        gsl_matrix_set(A , 1 , 1 , 1 +eps*eps + 2.0*eps*eps*p0.y - 2.0*eps*eps*p0.x - pow(eval,i));
+
+        // Calculate b
+        sum1 = 0.0; sum2 = 0.0; sum3 = 0.0;
+        for (int k = 1; k < i; ++k) {
+            sum1 += par.x[i-k]*par.x[k];
+            sum2 += par.y[i-k]*par.y[k];
+            sum3 += par.y[i-k]*par.x[k];
+        }
+        gsl_vector_set(b , 0 , 0.0);
+        gsl_vector_set(b , 1 , -eps*sum1 - eps*eps*eps*sum2 + 2.0*eps*sum3);
+
+        // Solve the system A x = b
+        gsl_permutation_init(perm); // Init permutation
+        flag = gsl_linalg_LU_decomp(A, perm, &sign); // LU decomp
+        flag = gsl_linalg_LU_solve(A, perm , b, aux); // Solve system
+
+        //printf("Iteration %d sign %d \n" , i , sign);
+        // printf("Iteration %d permutations %zu %zu \n" , i , gsl_permutation_get(perm , 0) , gsl_permutation_get(perm , 1));
+
+        // Copy x_n , y_n into placeholders
+        par.x[i] = gsl_vector_get(aux , gsl_permutation_get(perm , 0));
+        par.y[i] = gsl_vector_get(aux , gsl_permutation_get(perm , 1));
+    }
+
+    // Deallocate system
+    gsl_matrix_free(A);
+    gsl_vector_free(b);
+    gsl_vector_free(aux);
+    gsl_permutation_free(perm);
 }

@@ -64,6 +64,7 @@ void getStability(SStab M);
 // paramMethod.cpp
 void getParametrization(Param parStable , Param parUnst , int dim , Point x0 , SStab M , double eps);
 void paramMethod1D(Param par , int dim , Point p0 , double eval , gsl_vector* evec , double eps);
+void paramMethod1D_finv(Param par , int dim , Point p0 , double eval , gsl_vector* evec , double eps);
 void evaluateParametrization(Orbit orb , Param par , double smin , double smax);
 
 // IOmodule.cpp

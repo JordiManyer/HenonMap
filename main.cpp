@@ -79,7 +79,7 @@ int main() {
 
 
     // Stable Manifold
-    int nPoints = 50; double smin = 1.e-12; double smax = 1.0; // 1.e-7;
+    int nPoints = 50; double smin = 1.e-12; double smax = 0.5;
     Orbit orbS; orbS.n = nPoints;
     double xos[nPoints] , yos[nPoints]; orbS.x = xos; orbS.y = yos;
     evaluateParametrization(orbS , parS , smin , smax);
