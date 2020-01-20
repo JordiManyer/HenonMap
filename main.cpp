@@ -33,26 +33,34 @@ int main() {
     ev2 = (2.0 + eps*eps - eps*sqrt(eps*eps+4))/2.0;
     printf("Analytical eigenvalues: %g %g \n" , ev1 , ev2);
 
+    // Test eigenvectors
     gsl_matrix_complex* test;
     test = gsl_matrix_complex_calloc(eq.n , eq.n);
     for (int i = 0; i < eq.n; ++i) {
-        for (int j = 0; j< eq.n; ++j) {
+        for (int j = 0; j < eq.n; ++j) {
             for (int k = 0; k<eq.n; ++k){
                 lambda = gsl_complex_rect(gsl_matrix_get(eq.M,i,k),0);
                 lambda = gsl_complex_mul(lambda , gsl_matrix_complex_get(eq.evec,k,j));
                 lambda = gsl_complex_add(lambda , gsl_matrix_complex_get(test,i,j));
                 gsl_matrix_complex_set(test,i,j,lambda);
             }
+        }
+    }
+    double error = 0.0;
+    for (int i = 0; i < eq.n; ++i) {
+        for (int j = 0; j < eq.n; ++j) {
             lambda = gsl_matrix_complex_get(test,i,j);
             lambda = gsl_complex_div(lambda , gsl_vector_complex_get(eq.eval,j));
             gsl_matrix_complex_set(test,i,j,lambda);
+            error += gsl_complex_abs(gsl_complex_sub(lambda,gsl_matrix_complex_get(eq.evec,i,j)));
         }
     }
-    printf("Are eigenvectors correct? %d \n" , gsl_matrix_complex_equal(test , eq.evec));
+    printf("Are eigenvectors correct? %d , Error = %g \n" , gsl_matrix_complex_equal(test , eq.evec) , error);
+
 
     // Get parametrizations
     Param parS , parU;
-    int order = 100;
+    int order = 200;
     parS.n = order; parU.n = order;
     double xs[order], ys[order]; parS.x = xs; parS.y = ys;
     double xu[order], yu[order]; parU.x = xu; parU.y = yu;
@@ -69,8 +77,9 @@ int main() {
     for (int i = 0; i < order; ++i) printf("%g " , parU.y[i]);
     printf("\n");
 
+
     // Stable Manifold
-    int nPoints = 100; double smin = 1.e-6; double smax = 10.0;
+    int nPoints = 50; double smin = 1.e-12; double smax = 1.0; // 1.e-7;
     Orbit orbS; orbS.n = nPoints;
     double xos[nPoints] , yos[nPoints]; orbS.x = xos; orbS.y = yos;
     evaluateParametrization(orbS , parS , smin , smax);

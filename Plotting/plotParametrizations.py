@@ -104,9 +104,9 @@ ax2 = fig2.add_subplot(1,1,1)
 ax2.plot(parS.x , parS.y , 'b')
 ax2.plot(parU.x , parU.y , 'r')
 for i in range(0,ns):
-    ax2.plot(orbitsS[i].x , orbitsS[i].y , '')
+    ax2.plot(orbitsS[i].x , orbitsS[i].y , '.b')
 for i in range(0,nu):
-    ax2.plot(orbitsU[i].x , orbitsU[i].y , '')
+    ax2.plot(orbitsU[i].x , orbitsU[i].y , '.r')
 ax2.set_xlim(-1,1)
 ax2.set_ylim(-1,1)
 

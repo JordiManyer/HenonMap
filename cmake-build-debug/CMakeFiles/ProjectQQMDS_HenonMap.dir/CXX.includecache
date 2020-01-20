@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.cpp
-henon.h
+/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/main.cpp
+iostream
+-
+src/henon.h
 /home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
 
 /home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
