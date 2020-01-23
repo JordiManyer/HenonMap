@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/main.cpp
+iostream
+-
+string
+-
+cstring
+-
+src/henon.h
+/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
+
 /home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
 gsl/gsl_math.h
 -
@@ -19,8 +29,4 @@ gsl/gsl_complex.h
 -
 gsl/gsl_complex_math.h
 -
-
-/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/paramMethod.cpp
-henon.h
-/home/jordi/CLionProjects/ProjectQQMDS_HenonMap/src/henon.h
 

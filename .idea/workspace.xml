@@ -13,15 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="16f7ebeb-650c-476f-afb9-25c859ce8f18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/plotParametrizations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/plotParametrizations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/src/paramMethod.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjectQQMDS_HenonMap.dir/src/paramMethod.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjectQQMDS_HenonMap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjectQQMDS_HenonMap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Stable.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Stable.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Stable_orbits.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Stable_orbits.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unstable.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unstable.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unstable_orbits.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unstable_orbits.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Stable.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Stable_orbits.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unstable.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unstable_orbits.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/henon.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/henon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paramMethod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/paramMethod.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +114,9 @@
       <workItem from="1579185945335" duration="2838000" />
       <workItem from="1579345804054" duration="3869000" />
       <workItem from="1579535074487" duration="8179000" />
+      <workItem from="1579629019094" duration="8807000" />
+      <workItem from="1579704014129" duration="1803000" />
+      <workItem from="1579768190197" duration="8780000" />
     </task>
     <servers />
   </component>
@@ -131,22 +136,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="280" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1579375697582" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1579555928666">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1579778674281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579555928666" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1579555928666">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579778674281" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1579778674281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579555928666" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1579555928665">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579778674281" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1579778674281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579555928665" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1579555928666">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579778674281" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1579778674281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579555928666" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579778674281" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1577820201903">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -167,10 +172,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="457" y="157" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1577789168312" />
-    <state x="639" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1579345805306">
+    <state x="639" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1579768327138">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="639" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1579345805306" />
+    <state x="639" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1579768327138" />
     <state x="513" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577792013796">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
